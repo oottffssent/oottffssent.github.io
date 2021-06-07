@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <title>KimSoyeon</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
+        <style>
+            /*전체 공통*/
+            body{
+                width: 100%;
+            }
+            .wrap{
+                width: 1000px;
+                margin: 0 auto;
+            } 
+            #page_02, #page_04, #page_05{
+                background: #ffffff;
+            }
+            h1{
+                font-size: 60pt;
+                font-weight: 700;
+                padding: 35px 0; 
+                color: #e6e6e6; 
+                text-align: center;
+                margin: 0;
+            }
+            h2{
+                font-size: 24pt;
+                font-weight: 600;
+            }
+            .title{
+                text-align: center;
+                font-size: 15pt;
+                font-weight: bold;
+                color: #3c3c3c;
+                padding: 10px 5px 0 0;
+            }
+            .sub{
+                text-align: center; 
+                font-size: 12pt; 
+                color: #b4b4b4;
+            }
+            p{
+                margin: 0;
+                padding: 0;
+            }
+            ul{
+                margin: 0;
+                padding: 0;
+            }
+            /*페이지01*/
+            #page_01{
+                height: 800px;
+            }
+            #page_01 img{
+                position:fixed;
+                z-index: -1;
+                width: 100%;
+                height: 800px;
+                float: left;
+                
+            }
+            #page_01 .wrap{
+                height: 800px;
+                color: #fff;
+                padding-top: 350px;
+                text-align: center;
+            }
+            
+            /*페이지02*/
+            #page_02{
+                height: 849px;
+            }
+            #page_02 h3{
+                font-size: 15pt;
+                font-weight: 600;
+            }
+            #page_02 .wrap{
+                text-align: center;
+            }
+            #page_02 .wrap p{
+                padding: 30px 0; font-size: 11pt;
+            }
+            #page_02 .wrap button{
+                background-color: #fff; 
+                width: 220px; 
+                height: 50px;
+                font-size: 11pt;
+            }
+            #page_02 .wrap button.left{
+                background-color: #fff; 
+                width: 220px; 
+                height: 50px;
+                border: 1px solid #02c2a2; 
+                color: #02c2a2;
+            }
+            #page_02 .wrap button.right{
+                background-color: #fff; 
+                width: 220px; 
+                height: 50px;
+                border: 1px solid skyblue; 
+                color: skyblue;
+            }
+            #page_02 .wrap button.left:hover{
+                cursor:pointer;
+                background-color: #02c2a2;
+                color: white;
+            }
+            #page_02 .wrap button.right:hover{
+                cursor:pointer;
+                background-color: skyblue;
+                color: white;
+            }
+            #page_02 .wrap img{
+                width: 800px; 
+                border: 1px solid #eee; 
+                margin-top: 30px;
+            }
+            
+            /*페이지03*/
+            #page_03{
+                background: #eeeeee;
+                height: 600px;
+            }
+            #page_03 a{
+                display: block;
+                width: 300px;
+                height: 300px;
+            }
+            #page_03 ul li{
+                display: inline-block;
+                width: 300px;
+                margin: 10px;
+            }
+            #page_03 ul li img{
+                width: 300px;
+                margin: 0 auto;
+            }
+            
+            /*페이지04*/
+            #page_04{
+                height: 1250px;
+            }
+            #page_04 a{
+                margin: 10px 0;
+            }
+            #page_04 ul li{
+                display: inline-block;
+                width: 300px;
+                margin: 10px;
+            }
+            #page_04 ul li img{
+                width: 300px;
+                margin: 0 auto;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="page_01">
+            <img src="images/main/forest.jpg">
+            <div class="wrap">
+                <h2>Welcome! It's Soyeon's publishing portfolio.</h2>
+                <p style="font-size: 12pt;">안녕하세요. 웹퍼블리셔 김소연입니다.</p>
+            </div>
+        </div>
+        <div id="page_02">
+            <div class="wrap">
+                <h1>MAIN PROJECT</h1>
+                <h3>수영구도서관 모바일앱 리뉴얼</h3>
+                <p>수영구도서관 모바일앱 리뉴얼을 기획부터 퍼블리싱까지 진행하였습니다.<br>콘텐츠를 보기 쉽게 나열하고, 원하는 메뉴를 빠르게 찾을 수 있도록 배치하는 것에 신경썼습니다.</p>
+                <button class="left" onclick="window.open('about:blank').location.href='mainproject.html'">STYLE GUIDE</button>
+                <button class="right" onclick="window.open('about:blank').location.href='link/02library/index.html'">PUBLISHING</button>
+                <img src="images/main/sub1_02library_thumb.jpg">
+            </div>
+        </div>
+        <div id="page_03">
+            <div class="wrap">
+                <h1 style="">WEB PUBLISHING</h1>
+                <ul>
+                    <li class="lighting">
+                        <a href="link/07hansol/index.html" target="_blank"><img src="images/publishing/sub01.jpg"></a>
+                        <p class="title">한솔홈데코</p>
+                        <p class="sub">publishing 100%</p>
+                    </li>
+                    <li class="hansol">
+                        <a href="link/05lighting/sub01.html" target="_blank"><img src="images/publishing/sub02.jpg"></a>
+                        <p class="title">우담라이팅</p>
+                        <p class="sub">publishing 100%</p>
+                    </li>
+                    <li class="samsung">
+                        <a href="link/08samsung_web/index.html" target="_blank"><img src="images/publishing/sub03.jpg"></a>
+                        <p class="title">삼성 디스플레이</p>
+                        <p class="sub">publishing 100%</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="page_04">
+            <div class="wrap">
+                <h1>DESIGN</h1>
+                <div class="row justify-content-center">
+                    <div class="col-md-8">
+                        <div class="row">
+                            <a href="images/design/210521_special_event.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4"  data-title="이벤트페이지" data-footer="2021.05.21">
+                                <img src="images/design/210521_special_event.jpg" class="img-fluid rounded" style="width: 200px; height: 150px; object-fit:cover;">
+                            </a>
+                            <a href="images/design/210422_event_t840_coolen_big.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4"  data-title="이벤트페이지" data-footer="2021.04.22">
+                                <img src="images/design/210422_event_t840_coolen_big.jpg" class="img-fluid rounded" style="width: 200px; height: 150px; object-fit:cover;">
+                            </a>
+                            <a href="images/design/210415_powerevent.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4"  data-title="카드뉴스" data-footer="2021.04.15">
+                                <img src="images/design/210415_powerevent.jpg" class="img-fluid rounded" style="width: 200px; height: 150px; object-fit:cover;">
+                            </a>
+                            <a href="images/design/210330_powerevent.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4"  data-title="카드뉴스" data-footer="2021.03.30">
+                                <img src="images/design/210330_powerevent.jpg" class="img-fluid rounded" style="width: 200px; height: 150px; object-fit:cover;">
+                            </a>
+                            <a href="images/design/210222_banner_j710.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4"  data-title="배너" data-footer="2021.02.22">
+                                <img src="images/design/210222_banner_j710.jpg" class="img-fluid rounded" style="width: 200px; height: 150px; object-fit:cover;">
+                            </a>
+                            <a href="images/design/210127_banner_facebook.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4"  data-title="배너" data-footer="2021.01.27">
+                                <img src="images/design/210127_banner_facebook.jpg" class="img-fluid rounded" style="width: 200px; height: 150px; object-fit:cover;">
+                            </a>
+                            <a href="images/design/201223_banner_k460.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4"  data-title="배너" data-footer="2020.12.23">
+                                <img src="images/design/201223_banner_k460.jpg" class="img-fluid rounded" style="width: 200px; height: 150px; object-fit:cover;">
+                            </a>
+                            <a href="images/design/201006_banner_r480.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4"  data-title="배너" data-footer="2020.10.06">
+                                <img src="images/design/201006_banner_r480.jpg" class="img-fluid rounded" style="width: 200px; height: 150px; object-fit:cover;">
+                            </a>
+                            <a href="images/design/200611_banner_r480.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4"  data-title="배너" data-footer="2020.06.11">
+                                <img src="images/design/200611_banner_r480.jpg" class="img-fluid rounded" style="width: 200px; height: 150px; object-fit:cover;">
+                            </a>
+                            <a href="images/design/200221_banner_l560se.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4"  data-title="배너" data-footer="2020.02.21">
+                                <img src="images/design/200221_banner_l560se.jpg" class="img-fluid rounded" style="width: 200px; height: 150px; object-fit:cover;">
+                            </a>
+                            <a href="images/design/200108_mainslide_happynewyear.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4"  data-title="배너" data-footer="2020.01.08">
+                                <img src="images/design/200108_mainslide_happynewyear.jpg" class="img-fluid rounded" style="width: 200px; height: 150px; object-fit:cover;">
+                            </a>
+                            <a href="images/design/200108_event_happynewyear.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4"  data-title="이벤트페이지" data-footer="2020.01.08">
+                                <img src="images/design/200108_event_happynewyear.jpg" class="img-fluid rounded" style="width: 200px; height: 150px; object-fit:cover;">
+                            </a>
+                            <a href="images/design/191115_banner_l560.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4"  data-title="배너" data-footer="2019.11.15">
+                                <img src="images/design/191115_banner_l560.jpg" class="img-fluid rounded" style="width: 200px; height: 150px; object-fit:cover;">
+                            </a>
+                            <a href="images/design/191114_3rmod_event.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4"  data-title="이벤트페이지" data-footer="2019.11.14">
+                                <img src="images/design/191114_3rmod_event.jpg" class="img-fluid rounded" style="width: 200px; height: 150px; object-fit:cover;">
+                            </a>
+                            <a href="images/design/190819_popup_rshop_renewal.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4"  data-title="팝업이미지" data-footer="2019.08.19">
+                                <img src="images/design/190819_popup_rshop_renewal.jpg" class="img-fluid rounded" style="width: 200px; height: 150px; object-fit:cover;">
+                            </a>
+                            <a href="images/design/180714.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4"  data-title="ARTWORK" data-footer="2018.07.14">
+                                <img src="images/design/180714.jpg" class="img-fluid rounded" style="width: 200px; height: 150px; object-fit:cover;">
+                            </a>
+                            <a href="images/design/180712.jpg" data-toggle="lightbox" data-gallery="example-gallery" class="col-sm-4"  data-title="ARTWORK" data-footer="2018.07.12">
+                                <img src="images/design/180712.jpg" class="img-fluid rounded" style="width: 200px; height: 150px; object-fit:cover;">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="page_05" style="height: 530px; background-color: #eee; padding-top: 50px;">
+            <div class="wrap">
+                <div class="div_left" style="width: 450px; float: left; text-align: center;">
+                <img src="images/main/profile.jpg" style="width: 300px; padding-top: 20px;">
+                <p style="font-size: 18px; font-weight: 600; padding-top: 10px;">KIM SOYEON</p>
+                <p style="font-size: 14px; font-weight: 300;">1993.12.16</p>
+                </div>
+                <div class="div_right" style="width: 450px; float: left;">
+                <h1 style="padding: 0; padding-bottom: 20px; margin: 0;">PROFILE</h1>
+                    <table class="history">
+                        <tr>
+                            <td rowspan="3" bgcolor="skyblue" style="width: 100px; text-align: center; font-weight: 600; color: white;">HISTORY</td>
+                            <td style="padding-left: 20px; font-weight: 300; font-size: 10pt;">2016.02 부산대학교 조경학과 졸업</td>
+                        </tr>
+                        <tr>
+                            <td style="padding-left: 20px; font-weight: 300; font-size: 10pt;">2018.06 스마트웹&모바일콘텐츠 개발 양성 과정 수료</td>
+                        </tr>
+                        <tr>
+                            <td style="padding-left: 20px; font-weight: 300; font-size: 10pt;">2018.09 (주)쓰리알시스 재직</td>
+                        </tr>
+                    </table>
+                    <table class="license" style="margin: 10px 0;">
+                        <tr>
+                            <td rowspan="6" bgcolor="skyblue" style="width: 100px; text-align: center; font-weight: 600; color: white;">LICENSE</td>
+                            <td style="padding-left: 20px; font-weight: 300; font-size: 10pt;">웹디자인기능사</td>
+                        </tr>
+                        <tr>
+                            <td style="padding-left: 20px; font-weight: 300; font-size: 10pt;">컴퓨터그래픽스운용기능사</td>
+                        </tr>
+                        <tr>
+                            <td style="padding-left: 20px; font-weight: 300; font-size: 10pt;">GTQ포토샵 1급</td>
+                        </tr>
+                        <tr>
+                            <td style="padding-left: 20px; font-weight: 300; font-size: 10pt;">GTQ일러스트 1급</td>
+                        </tr>
+                        <tr>
+                            <td style="padding-left: 20px; font-weight: 300; font-size: 10pt;">1종보통운전면허</td>
+                        </tr>
+                        <tr>
+                            <td style="padding-left: 20px; font-weight: 300; font-size: 10pt;">조경기사</td>
+                        </tr>
+                    </table>
+                    <table class="ability">
+                        <tr>
+                            <td rowspan="4" bgcolor="skyblue" style="width: 100px; text-align: center; font-weight: 600; color: white;">ABILITY</td>
+                            <td style="padding-left: 20px; font-weight: 300;">PHOTOSHOP</td>
+                        </tr>
+                        <tr>
+                            <td style="padding-left: 20px; font-weight: 300;">ILLUSTRATION</td>
+                        </tr>
+                        <tr>
+                            <td style="padding-left: 20px; font-weight: 300;">HTML5</td>
+                        </tr>
+                        <tr>
+                            <td style="padding-left: 20px; font-weight: 300;">CSS3</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <script>
+            $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+                event.preventDefault();
+                $(this).ekkoLightbox();
+            });
+        </script>
+    </body>
+</html>
